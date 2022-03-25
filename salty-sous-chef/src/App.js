@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import DropDown from './DropDown';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello World
+          <DropDown />
         </p>
         <a
           className="App-link"
