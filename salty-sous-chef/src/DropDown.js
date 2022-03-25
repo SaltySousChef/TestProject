@@ -7,7 +7,9 @@ export default function DropDown() {
     return (
             <div className='DropDown'>
                 <Select>
-                    <MenuItem value ={10}>TEN</MenuItem>
+                    <MenuItem value ={'AUSD'}>AUSD</MenuItem>
+                    <MenuItem value ={'GBP'}>GBP</MenuItem>
+                    <MenuItem value ={'JPY'}>JPY</MenuItem>
                 </Select>
             </div>
     );
